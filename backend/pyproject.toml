@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "dafiti-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Gonçalves <carlos.empre@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.1.5"
+pytest-django = "^4.1.0"
+python-decouple = "^3.4"
+djangorestframework = "^3.12.2"
+dj-database-url = "^0.5.0"
+psycopg2-binary = "^2.8.6"
+django-extensions = "^3.1.0"
+django-environ = "^0.4.5"
+Werkzeug = "^1.0.1"
+drf-yasg = "^1.20.0"
+django-filter = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
